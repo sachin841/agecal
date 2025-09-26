@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator for 1935 Born</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="index.html">Main Calculator</a>
+        <a href="age-in-days.html">Age in Days</a>
+        <a href="age-in-months.html">Age in Months</a>
+        <a href="age-difference.html">Age Difference</a>
+        <a href="age-year-pages-index.html">Age by Year</a>
+        <a href="about.html">About</a>
+    </nav>
+    <div class="container">
+        <h1 class="title">Age Calculator for 1935 Born</h1>
+        <div class="calculator-card">
+            <div class="input-group">
+                <label for="dob">Enter your Date of Birth:</label>
+                <input type="date" id="dob" value="1935-01-01">
+            </div>
+            <button onclick="calculateAge()">Calculate Age</button>
+            <div id="result" class="result-box">
+                <!-- Age will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', calculateAge);</script>
+</body>
+</html>

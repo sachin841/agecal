@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yard Calculator Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Yard Calculator Hub</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Yard Calculator Hub</h1>
+                <p>Your one-stop solution for all yard-related calculations. Find the right calculator for your project!</p>
+            </div>
+        </section>
+
+        <section class="calculators-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" onkeyup="searchCalculators()" placeholder="Search for calculators...">
+            </div>
+            <div id="calculator-list" class="calculator-grid">
+                <!-- Calculator links will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Yard Calculator Hub</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

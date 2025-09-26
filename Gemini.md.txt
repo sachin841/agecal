@@ -1,0 +1,152 @@
+📄 Product Requirement Document (PRD)
+Project: Yard Calculator Static Website (1000 Pages)
+1. Objective
+
+Build 1000 static web pages using HTML, CSS, and JavaScript only (no frameworks).
+
+Each page will represent a unique Yard Calculator based on a specific variable.
+
+Pages must be fast, SEO-friendly, consistent, and fully interlinked.
+
+2. Scope
+In Scope
+
+Home page (index.html) with introduction + links to all calculators.
+
+1000 calculator pages with simple UI and JS calculation logic.
+
+Interlinking between all calculator pages.
+
+Consistent design and theme across all pages.
+
+SEO optimization (titles, meta tags, headings).
+
+Out of Scope
+
+Any backend/database integration.
+
+User accounts or login systems.
+
+Frameworks or libraries (React, Angular, Vue, etc.).
+
+3. Page Structure
+3.1 Home Page (index.html)
+
+Header: Website name (“Yard Calculator Hub”).
+
+Navigation: Home | About | Contact.
+
+Search bar (JS-based) to find calculators.
+
+List/Grid view with links to all 1000 calculators.
+
+Footer with copyright, sitemap, contact.
+
+3.2 Calculator Page (e.g., yard-calculator-gravel.html)
+
+Title: “Yard Calculator for {Variable}”.
+
+Meta description: Short, SEO-friendly description.
+
+Header: Same as home page.
+
+Content:
+
+H1 Heading: {Variable} Yard Calculator.
+
+Short description (100–150 words).
+
+Calculator UI:
+
+Input fields (text/number).
+
+"Calculate" button.
+
+JS function to compute result.
+
+Result display area (dynamic, JS-powered).
+
+Related Calculators section → links to 10 random calculators.
+
+Footer → same as home page.
+
+4. Variables (Examples)
+
+Each calculator page will be based on a different variable:
+
+Yard Calculator for Length & Width
+
+Yard Calculator for Gravel Cost
+
+Yard Calculator for Fencing Area
+
+Yard Calculator for Garden Soil
+
+Yard Calculator for Fertilizer
+
+Yard Calculator for Water Usage
+… up to 1000 unique variations.
+
+5. Design Guidelines
+
+Colors: Light background (white/cream), primary (green/blue), accent (orange).
+
+Font: Sans-serif (Roboto / Open Sans / Arial).
+
+Layout:
+
+Header fixed on top.
+
+Center-aligned content.
+
+Calculator in a card-style box (shadow + rounded corners).
+
+Buttons: Rounded, hover effects.
+
+6. SEO Requirements
+
+Unique <title> and <meta description> per page.
+
+<h1> for main heading, <h2> for sub-sections.
+
+Strong internal linking between calculators.
+
+Auto-generated sitemap.xml for all 1000 pages.
+
+Clean, keyword-friendly URLs (e.g., yard-calculator-fencing.html).
+
+7. Technical Requirements
+
+Pure HTML5 + CSS3 + Vanilla JavaScript.
+
+No backend – must be static and deployable on GitHub Pages, Netlify, or Vercel.
+
+Each page should be lightweight (~50–100 KB).
+
+Use shared CSS (style.css) and shared JS (script.js) across all pages.
+
+Minified CSS/JS for performance.
+
+8. Deliverables
+
+index.html – Home page with links to all calculators.
+
+1000 calculator HTML pages (unique variables).
+
+style.css – Global stylesheet.
+
+script.js – Shared calculator logic.
+
+sitemap.xml – For SEO.
+
+9. Future Enhancements (Optional)
+
+Dark mode toggle.
+
+Multi-language support (English, Hindi, Urdu).
+
+Export or Print/PDF option for results.
+
+👉 With this PRD, you can feed the requirements into any AI/code-generation tool and generate 1000 static calculator pages.
+
+Would you like me to also prepare a sample HTML + CSS + JS template page (one calculator example) that you can duplicate and just swap variables for all 1000 pages?
